@@ -1,0 +1,30 @@
+C:\Users\Rivaldo Mendez\Desktop\ProyectoRelojChecador\ProyectoRelojChecador\bin\Debug\ProyectoRelojChecador.exe.config
+C:\Users\Rivaldo Mendez\Desktop\ProyectoRelojChecador\ProyectoRelojChecador\bin\Debug\ProyectoRelojChecador.exe
+C:\Users\Rivaldo Mendez\Desktop\ProyectoRelojChecador\ProyectoRelojChecador\bin\Debug\ProyectoRelojChecador.pdb
+C:\Users\Rivaldo Mendez\Desktop\ProyectoRelojChecador\ProyectoRelojChecador\obj\Debug\ProyectoRelojChecador.csproj.AssemblyReference.cache
+C:\Users\Rivaldo Mendez\Desktop\ProyectoRelojChecador\ProyectoRelojChecador\obj\Debug\ProyectoRelojChecador.Form1.resources
+C:\Users\Rivaldo Mendez\Desktop\ProyectoRelojChecador\ProyectoRelojChecador\obj\Debug\ProyectoRelojChecador.Properties.Resources.resources
+C:\Users\Rivaldo Mendez\Desktop\ProyectoRelojChecador\ProyectoRelojChecador\obj\Debug\ProyectoRelojChecador.csproj.GenerateResource.cache
+C:\Users\Rivaldo Mendez\Desktop\ProyectoRelojChecador\ProyectoRelojChecador\obj\Debug\ProyectoRelojChecador.csproj.CoreCompileInputs.cache
+C:\Users\Rivaldo Mendez\Desktop\ProyectoRelojChecador\ProyectoRelojChecador\obj\Debug\ProyectoRelojChecador.exe
+C:\Users\Rivaldo Mendez\Desktop\ProyectoRelojChecador\ProyectoRelojChecador\obj\Debug\ProyectoRelojChecador.pdb
+C:\Users\Rivaldo Mendez\Desktop\ProyectoRelojChecador\ProyectoRelojChecador\obj\Debug\ProyectoRelojChecador.FrmAgregarEmpleado.resources
+C:\Users\Rivaldo Mendez\Desktop\ProyectoRelojChecador\ProyectoRelojChecador\obj\Debug\ProyectoRelojChecador.FrmBuscarEmpleado.resources
+C:\Users\Rivaldo Mendez\Desktop\ProyectoRelojChecador\ProyectoRelojChecador\obj\Debug\ProyectoRelojChecador.FrmRegistroChecada.resources
+C:\Users\Rivaldo Mendez\Desktop\ProyectoRelojChecador\ProyectoRelojChecador\obj\Debug\ProyectoRelojChecador.FrmEliminarEmpleado.resources
+C:\Users\Rivaldo Mendez\Desktop\ProyectoRelojChecador\ProyectoRelojChecador\obj\Debug\ProyectoRelojChecador.FrmModificarEmpleado.resources
+C:\Users\rival\OneDrive\Desktop\Proyectos\Reloj-Checador\ProyectoRelojChecador\ProyectoRelojChecador\bin\Debug\ProyectoRelojChecador.exe.config
+C:\Users\rival\OneDrive\Desktop\Proyectos\Reloj-Checador\ProyectoRelojChecador\ProyectoRelojChecador\bin\Debug\ProyectoRelojChecador.exe
+C:\Users\rival\OneDrive\Desktop\Proyectos\Reloj-Checador\ProyectoRelojChecador\ProyectoRelojChecador\bin\Debug\ProyectoRelojChecador.pdb
+C:\Users\rival\OneDrive\Desktop\Proyectos\Reloj-Checador\ProyectoRelojChecador\ProyectoRelojChecador\obj\Debug\ProyectoRelojChecador.csproj.AssemblyReference.cache
+C:\Users\rival\OneDrive\Desktop\Proyectos\Reloj-Checador\ProyectoRelojChecador\ProyectoRelojChecador\obj\Debug\ProyectoRelojChecador.Form1.resources
+C:\Users\rival\OneDrive\Desktop\Proyectos\Reloj-Checador\ProyectoRelojChecador\ProyectoRelojChecador\obj\Debug\ProyectoRelojChecador.FrmAgregarEmpleado.resources
+C:\Users\rival\OneDrive\Desktop\Proyectos\Reloj-Checador\ProyectoRelojChecador\ProyectoRelojChecador\obj\Debug\ProyectoRelojChecador.FrmBuscarEmpleado.resources
+C:\Users\rival\OneDrive\Desktop\Proyectos\Reloj-Checador\ProyectoRelojChecador\ProyectoRelojChecador\obj\Debug\ProyectoRelojChecador.FrmEliminarEmpleado.resources
+C:\Users\rival\OneDrive\Desktop\Proyectos\Reloj-Checador\ProyectoRelojChecador\ProyectoRelojChecador\obj\Debug\ProyectoRelojChecador.FrmModificarEmpleado.resources
+C:\Users\rival\OneDrive\Desktop\Proyectos\Reloj-Checador\ProyectoRelojChecador\ProyectoRelojChecador\obj\Debug\ProyectoRelojChecador.FrmRegistroChecada.resources
+C:\Users\rival\OneDrive\Desktop\Proyectos\Reloj-Checador\ProyectoRelojChecador\ProyectoRelojChecador\obj\Debug\ProyectoRelojChecador.Properties.Resources.resources
+C:\Users\rival\OneDrive\Desktop\Proyectos\Reloj-Checador\ProyectoRelojChecador\ProyectoRelojChecador\obj\Debug\ProyectoRelojChecador.csproj.GenerateResource.cache
+C:\Users\rival\OneDrive\Desktop\Proyectos\Reloj-Checador\ProyectoRelojChecador\ProyectoRelojChecador\obj\Debug\ProyectoRelojChecador.csproj.CoreCompileInputs.cache
+C:\Users\rival\OneDrive\Desktop\Proyectos\Reloj-Checador\ProyectoRelojChecador\ProyectoRelojChecador\obj\Debug\ProyectoRelojChecador.exe
+C:\Users\rival\OneDrive\Desktop\Proyectos\Reloj-Checador\ProyectoRelojChecador\ProyectoRelojChecador\obj\Debug\ProyectoRelojChecador.pdb
