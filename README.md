@@ -1,481 +1,331 @@
-# ⏰ Employee Attendance Management System
+# Employee Attendance Management System
 
+A desktop-based **Employee Attendance Management System** developed to manage employees and record their attendance in an organization.
 
+The project includes two implementations of the system, one developed with **C# Windows Forms** and another with **Java Swing**, both connected to a **Microsoft SQL Server** database.
 
-## 📖 Overview
+The system allows administrators to register employees, search for employees, modify or delete employee information, and record and review attendance records.
 
-
-
-The **Employee Attendance Management System** is a desktop application designed to manage employee attendance records within an organization.
-
-
-
-The system allows employees to register their daily check-ins using a unique employee ID and automatically tracks the different stages of a workday, including:
-
-
-
-* 🏢 Workday start
-
-* 🍽 Lunch break departure
-
-* 🔙 Return from lunch
-
-* 🚪 End of workday
-
-
-
-Additionally, the system calculates attendance bonuses based on completed attendance cycles and stores all records in a \*\*Microsoft SQL Server\*\* database.
-
-
-
-This project was developed as part of an **Object-Oriented Programming (OOP)** course and demonstrates the implementation of:
-
-
-
-* Database connectivity
-
-* Object-oriented design
-
-* Desktop user interfaces
-
-* CRUD operations
-
-* SQL Server integration
-
-
-
----
-
-
-
-## 🚀 Features
-
-
+## 📋 Features
 
 ### 👨‍💼 Employee Management
 
-
-
-* Register employees
-
-* Update employee information
-
-* Delete employee records
-
-* Search employees by ID
-
+* Register new employees
+* Search employees
+* Modify employee information
+* Delete employees
 * View employee information
 
+### 🕐 Attendance Management
 
+* Register employee attendance
+* Record check-in information
+* View attendance history
+* Associate attendance records with employees
+* Query attendance information
 
-### ⏱ Attendance Tracking
+### 🗄️ Database
 
+* Microsoft SQL Server integration
+* Employee data management
+* Attendance records
+* SQL queries for CRUD operations
+* Database backup included
 
+## 🖥️ Screenshots
 
-* Employee clock-in using an employee ID
+### Main Menu
 
-* Automatic attendance registration
+![Main Menu](Screenshots/Manu%20Principal.jpg)
 
-* Attendance history management
+### Register Employee
 
-* Daily attendance tracking
+![Register Employee](Screenshots/Registrar%20Empleados.jpg)
 
+### Search Employee
 
+![Search Employee](Screenshots/Buscar%20Empleado.jpg)
 
-### ✅ Workday Status Validation
+### Modify Employee
 
+![Modify Employee](Screenshots/Modificar%20Empleado.jpg)
 
+### Delete Employee
 
-The system automatically determines the employee status based on the number of attendance records registered during the day:
+![Delete Employee](Screenshots/Eliminar%20Empleado.jpg)
 
+### Register Attendance
 
+![Register Attendance](Screenshots/Registrar%20Checada.jpg)
 
-| Check-in Number | Status               |
+### Attendance History
 
-| --------------- | -------------------- |
+![Attendance History](Screenshots/Historial%20Checada%20.jpg)
 
-| 1               | Entering work        |
+### Database Diagram
 
-| 2               | Leaving for lunch    |
+![Database Diagram](Screenshots/Diagrama%20DB.png)
 
-| 3               | Returning from lunch |
+## 🛠️ Technologies
 
-| 4               | Leaving work         |
+| Technology           | Purpose                         |
+| -------------------- | ------------------------------- |
+| C#                   | Desktop application development |
+| .NET Framework 4.7.2 | C# application framework        |
+| Windows Forms        | C# graphical user interface     |
+| Java                 | Desktop application development |
+| Java Swing           | Java graphical user interface   |
+| Microsoft SQL Server | Database management             |
+| JDBC                 | Java database connectivity      |
+| SQL                  | Database queries                |
+| Visual Studio        | C# development                  |
+| NetBeans             | Java development                |
 
+## 🏗️ Project Architecture
 
-
-### 🎁 Bonus System
-
-
-
-After completing the fourth attendance registration of the day, the system:
-
-
-
-* Removes temporary attendance records
-
-* Registers a bonus record
-
-* Stores bonus information in the database
-
-
-
----
-
-
-
-## 🛠 Technologies Used
-
-
-
-### Programming Languages
-
-
-
-* Java 8
-
-* C#
-
-
-
-### Frameworks and Tools
-
-
-
-* Apache NetBeans IDE
-
-* Visual Studio
-
-* Windows Forms
-
-
-
-### Database
-
-
-
-* Microsoft SQL Server
-
-
-
-### Database Connectivity
-
-
-
-* JDBC Driver for SQL Server
-
-* ADO.NET (SqlConnection)
-
-
-
----
-
-
-
-## 🗄 Database Structure
-
-
-
-The system uses the following database tables:
-
-
-
-### EMPLEADO
-
-
-
-Stores employee information.
-
-
-
-| Field            | Description      |
-
-| ---------------- | ---------------- |
-
-| ID_EMPLEADO_TE   | Employee ID      |
-
-| NOMBRE           | First name       |
-
-| APELLIDO_PATERNO | Last name        |
-
-| APELLIDO_MATERNO | Second last name |
-
-| EDAD             | Age              |
-
-| SEXO             | Gender           |
-
-| PUESTO           | Job position     |
-
-
-
----
-
-
-
-### CHECADA
-
-
-
-Stores employee attendance records.
-
-
-
-| Field          | Description     |
-
-| -------------- | --------------- |
-
-| ID_EMPLEADO_TC | Employee ID     |
-
-| HORA           | Attendance time |
-
-| FECHA          | Attendance date |
-
-
-
----
-
-
-
-### CHECADABONO
-
-
-
-Stores employee bonus records.
-
-
-
-| Field          | Description |
-
-| -------------- | ----------- |
-
-| ID_EMPLEADO_TB | Employee ID |
-
-| FECHA          | Date        |
-
-| BONO           | Bonus value |
-
-
-
----
-
-
-
-### PUESTO
-
-
-
-Stores employee job positions.
-
-
-
-| Field         | Description   |
-
-| ------------- | ------------- |
-
-| ID_PUESTO     | Position ID   |
-
-| NOMBRE_PUESTO | Position name |
-
-
-
----
-
-
-
-## 🏗 Project Structure
-
-
+The project contains two desktop implementations connected to the same database concept.
 
 ```text
-
-Reloj-Checador
-
+Employee Attendance Management System
 │
-
-├── C#-RelojChecador
-
+├── C# Implementation
+│   └── Windows Forms
+│       ├── Employee Management
+│       ├── Attendance Registration
+│       └── Attendance History
 │
-
-├── ProyectoRelojChecador
-
+├── Java Implementation
+│   └── Java Swing
+│       ├── Employee Management
+│       ├── Attendance Registration
+│       └── Attendance History
 │
+└── Microsoft SQL Server
+    ├── Employees
+    └── Attendance Records
+```
 
-├── Screenshots
+## 📂 Project Structure
 
+```text
+employee-attendance-management-system/
 │
-
-├── README.md
-
+├── C#-RelojChecador/
+│   ├── ProyectoRelojChecador.sln
+│   └── ProyectoRelojChecador/
+│       ├── BDPrincipal.cs
+│       ├── Empleado.cs
+│       ├── EmpleadoQuery.cs
+│       ├── Checada.cs
+│       ├── ChecadaQuery.cs
+│       ├── Form1.cs
+│       ├── FrmAgregarEmpleado.cs
+│       ├── FrmBuscarEmpleado.cs
+│       ├── FrmModificarEmpleado.cs
+│       ├── FrmEliminarEmpleado.cs
+│       └── FrmRegistroChecada.cs
 │
-
-├── Respaldo-DBRelojChecador
-
+├── Java-RolojChecador/
+│   ├── build.xml
+│   ├── manifest.mf
+│   └── src/
+│       └── app/
+│           ├── BDPrincipal.java
+│           ├── Empleado.java
+│           ├── EmpleadoQuery.java
+│           ├── Checada.java
+│           ├── ChecadaQuery.java
+│           ├── ChecadorPrincipal.java
+│           ├── FrmAgregarEmpleado.java
+│           ├── FrmBuscarEmpleado.java
+│           ├── FrmModificarEmpleado.java
+│           ├── FrmEliminarEmpleado.java
+│           └── FrmRegistroChecada.java
 │
+├── Screenshots/
+│   ├── Buscar Empleado.jpg
+│   ├── Diagrama DB.png
+│   ├── Eliminar Empleado.jpg
+│   ├── Historial Checada .jpg
+│   ├── Manu Principal.jpg
+│   ├── Modificar Empleado.jpg
+│   ├── Registrar Checada.jpg
+│   └── Registrar Empleados.jpg
+│
+├── SCRIPT BASE DE DATOS RELOJ.sql
+├── Respaldo-DBRelojChecador.bak
+└── README.md
+```
 
-└── SCRIPT BASE DE DATOS RELOJ
+## 👥 Employee Management Module
 
+The employee management module provides the basic CRUD operations required to maintain employee information.
+
+```text
+                Employee Management
+                       │
+        ┌──────────────┼──────────────┐
+        ▼              ▼              ▼
+     Create          Search         Update
+        │              │              │
+        └──────────────┼──────────────┘
+                       ▼
+                     Delete
+```
+
+### Available Operations
+
+* **Create:** Register a new employee.
+* **Read:** Search and view employee information.
+* **Update:** Modify existing employee information.
+* **Delete:** Remove an employee from the system.
+
+## 🕐 Attendance Module
+
+The attendance module allows employees' check-in records to be registered and later consulted.
+
+```text
+Employee
+    │
+    ▼
+Attendance Registration
+    │
+    ▼
+SQL Server
+    │
+    ▼
+Attendance History
+```
+
+Attendance records are associated with employees through the database.
+
+## 🗄️ Database
+
+The application uses **Microsoft SQL Server** as its relational database.
+
+The repository includes the SQL database script:
+
+```text
+SCRIPT BASE DE DATOS RELOJ.sql
+```
+
+A database backup is also included:
+
+```text
+Respaldo-DBRelojChecador.bak
+```
+
+The database stores the information required for employee management and attendance tracking.
+
+## 🔄 System Workflow
+
+The general workflow is:
+
+```text
+Start
+  │
+  ▼
+Main Menu
+  │
+  ├───────────────┐
+  ▼               ▼
+Employees      Attendance
+  │               │
+  ▼               ▼
+CRUD Operations  Register Check-in
+  │               │
+  └───────┬───────┘
+          ▼
+      SQL Server
+          │
+          ▼
+    Query / History
+```
+
+## 💻 C# Version
+
+The C# implementation was developed using **Windows Forms** and **.NET Framework 4.7.2**.
+
+Main components include:
+
+* Employee management forms
+* Attendance registration form
+* Database connection class
+* Employee query class
+* Attendance query class
+* Windows Forms interface
+
+### Main C# Forms
+
+```text
+Form1
+├── FrmAgregarEmpleado
+├── FrmBuscarEmpleado
+├── FrmModificarEmpleado
+├── FrmEliminarEmpleado
+└── FrmRegistroChecada
+```
+
+## ☕ Java Version
+
+The Java implementation was developed using **Java Swing** and NetBeans.
+
+It provides functionality equivalent to the C# version.
+
+### Main Java Components
+
+```text
+ChecadorPrincipal
+├── FrmAgregarEmpleado
+├── FrmBuscarEmpleado
+├── FrmModificarEmpleado
+├── FrmEliminarEmpleado
+└── FrmRegistroChecada
+```
+
+The Java version uses JDBC to communicate with SQL Server.
+
+## ⚙️ Requirements
+
+### C# Version
+
+* Windows
+* Visual Studio
+* .NET Framework 4.7.2
+* Microsoft SQL Server
+
+### Java Version
+
+* Java JDK
+* NetBeans or another Java IDE
+* Microsoft SQL Server
+* Microsoft JDBC Driver for SQL Server
+
+## 🚀 Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/employee-attendance-management-system.git
 ```
 
 
+## 🎯 Project Objectives
 
----
+The main objective of this project was to develop a desktop application capable of managing employees and recording their attendance using a relational database.
 
-
-
-## 🎯 Object-Oriented Programming Concepts Applied
-
-
-
-This project implements several OOP principles:
-
-
-
-### Encapsulation
-
-
-
-Employee and attendance information are stored using classes with attributes and methods.
-
-
-
-### Abstraction
-
-
-
-Database operations are encapsulated inside query classes.
-
-
-
-### Modularity
-
-
-
-The application separates responsibilities into:
-
-
-
-* Employee management
-
-* Attendance management
-
-* Database access
-
-* User interface
-
-
-
-### Reusability
-
-
-
-Query classes and database connection classes are reused throughout the project.
-
-
-
----
-
-
-
-## 📚 Learning Outcomes
-
-
-
-Through this project I learned:
-
-
-
-* Object-Oriented Programming principles
-
-* SQL Server database design
-
-* CRUD operations
-
-* Desktop application development
-
-* Database connectivity using JDBC and ADO.NET
-
-* Event-driven programming
-
-* User interface development
-
-* Software architecture organization
-
-
-
----
-
-
-
-## 📸 Screenshots
-
-
-
-Include screenshots of:
-
-
-
-* Main menu
-
-* Employee registration form
-
-* Attendance registration form
-
-* Attendance history
-
-* Database tables
-
-
-
-
-## 🔮 Future Improvements
-
-
-
-* User authentication
-
-* Attendance reports
-
-* PDF export functionality
-
-* Monthly attendance statistics
-
-* Employee schedules
-
-* Role-based access control
-
-* Web version of the application
-
-
-
----
+The project also provided an opportunity to implement the same business requirements using two different programming languages and desktop GUI technologies.
 
 
 
 ## 👨‍💻 Author
 
-
-
-**Rivaldo Méndez Carranza**
-
-
+**Rivaldo Méndez**
 
 Information Technology Engineering Student
 
-
-
-Benemérita Universidad Autónoma de Puebla (BUAP)
-
-
+GitHub: [@RivaldoMc7](https://github.com/RivaldoMc7)
 
 ---
 
-
-
-## 📄 License
-
-
-
-This project is intended for educational and portfolio purposes.
-
-
-
+⭐ Desktop application focused on **employee management, attendance tracking, CRUD operations, SQL Server integration, Java, and C#**.
